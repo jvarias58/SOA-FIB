@@ -1,0 +1,49 @@
+switch_task.s:# 1 "<built-in>"
+Binary file mm.o matches
+Binary file user.o matches
+Binary file libzeos.a matches
+Binary file system matches
+sys_call_table.s:# 1 "<built-in>"
+Binary file list.o matches
+bootsect.s:# 1 "<built-in>"
+bootsect.s:BOOTSEG   = 0x07C0		! original address of boot-sector
+bootsect.s:INITSEG   = 0x9000		! final address of boot-sector
+bootsect.s:! things as simple as possible, we do no register set-up or anything,
+Binary file interrupt.o matches
+Binary file sched.o matches
+entry.s:# 1 "<built-in>"
+Binary file user matches
+Binary file utils.o matches
+sched.c:	return t->dir_pages_baseAddr;
+sched.c:	return (page_table_entry *)(((unsigned int)(t->dir_pages_baseAddr->bits.pbase_addr))<<12);
+sched.c:	pos = ((int)t-(int)task)/sizeof(union task_union);
+sched.c:	t->dir_pages_baseAddr = (page_table_entry*) &dir_pages[pos]; 
+sched.c:	if (&(t->list) != NULL)
+sched.c:		list_del(&(t->list));
+sched.c:		list_add_tail(&(t->list), dst_queue);
+Binary file build matches
+Binary file devices.o matches
+Binary file hardware.o matches
+Binary file system.o matches
+wrappers.s:# 1 "<built-in>"
+Binary file libauxjp.a matches
+bootsect.S:BOOTSEG   = 0x07C0		! original address of boot-sector
+bootsect.S:INITSEG   = 0x9000		! final address of boot-sector
+bootsect.S:! things as simple as possible, we do no register set-up or anything,
+Binary file io.o matches
+Binary file libc.o matches
+.gdbcmd:define print-stack
+.gdbcmd:document print-stack
+.gdbcmd:print-stack
+.gdbcmd:Alias for 'print-stack'
+include/list.h: *   realelement->a = 0x666;
+suma.s:# 1 "<built-in>"
+Makefile:HOSTCFLAGS = -Wall -Wstrict-prototypes -g
+Makefile:CFLAGS = -m32 -O  -g -fno-omit-frame-pointer -ffreestanding -Wall -I$(INCLUDEDIR) -fno-PIC
+bochsout.txt:00000318049i[KBD   ] reset-disable command received
+list.c:	list->next = list;
+list.c:	list->prev = list;
+list.c:	next->prev = new;
+list.c:	next->prev = prev;
+list.c:	return list->next == head;
+Binary file sys.o matches
